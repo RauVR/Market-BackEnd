@@ -90,4 +90,15 @@ public class Producto {
   public void setEstado(Boolean stado) {
     this.estado = stado;
   }
+
+  public Categoria getCategoria() {
+    return categoria;
+  }
+
+  public void setCategoria(Categoria categoria) {
+    this.categoria = categoria;
+  }
+
+
+
 }
