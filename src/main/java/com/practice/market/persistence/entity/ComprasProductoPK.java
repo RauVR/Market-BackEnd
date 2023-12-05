@@ -12,7 +12,7 @@ public class ComprasProductoPK implements Serializable {
   private Integer idCompra;
 
   @Column(name = "id_producto")
-  private Integer idProducto
+  private Integer idProducto;
 
   public Integer getIdCompra() {
     return idCompra;
