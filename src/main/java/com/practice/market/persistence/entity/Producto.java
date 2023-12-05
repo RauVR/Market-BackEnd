@@ -25,7 +25,7 @@ public class Producto {
   @Column(name = "cantidad_stock")
   private Integer cantidadStock;
 
-  private Boolean stado;
+  private Boolean estado;
 
   @ManyToOne
   @JoinColumn(name = "id_categoria",insertable = false,updatable = false)
@@ -83,11 +83,11 @@ public class Producto {
     this.cantidadStock = cantidadStock;
   }
 
-  public Boolean getStado() {
-    return stado;
+  public Boolean getEstado() {
+    return estado;
   }
 
-  public void setStado(Boolean stado) {
-    this.stado = stado;
+  public void setEstado(Boolean stado) {
+    this.estado = stado;
   }
 }
